@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 
 
 class Dataset(BaseModel):
-    data: list[float] = Field(min_items=1, max_items=10000)
+    data: list[float] = Field(min_length=1, max_length=10000)
 
 
 class Stats(BaseModel):
