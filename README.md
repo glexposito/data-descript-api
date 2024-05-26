@@ -3,11 +3,27 @@
 The **Data Descript API** allows users to calculate basic descriptive statistics such as mean, median, variance, standard deviation, minimum and maximum values, range, and quartiles. This is primarily a proof of concept to experiment with FastAPI.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Requirements](#requirements)
+1. [Requirements](#requirements)
+2. [Installation](#installation)
 3. [Configuration](#configuration)
 4. [Endpoints](#endpoints)
 5. [Usage Examples](#usage-examples)
+
+## Requirements
+
+The **Data Descript API** is built using Python and the FastAPI framework. Ensure you have Python 3.7 or higher installed on your system.
+
+### Common requirements:
+
+- **Programming languages and runtimes:**
+  - [Python 3](https://www.python.org/downloads/) (&ge; 3.7)
+- **Python packages:**
+  - FastAPI
+  - uvicorn
+  - pydantic
+  - numpy
+
+You can install these packages using the `requirements.txt` file provided in the repository.
 
 ## Installation
 
@@ -25,22 +41,6 @@ cd data-descript-api
 ```bash
 pip install -r requirements.txt
 ```
-
-## Requirements
-
-The **Data Descript API** is built using Python and the FastAPI framework. Ensure you have Python 3.7 or higher installed on your system.
-
-### Common requirements:
-
-- **Programming languages and runtimes:**
-  - [Python 3](https://www.python.org/downloads/) (&ge; 3.7)
-- **Python packages:**
-  - FastAPI
-  - uvicorn
-  - pydantic
-  - numpy
-
-You can install these packages using the `requirements.txt` file provided in the repository.
 
 ## Configuration
 
