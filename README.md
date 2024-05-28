@@ -32,7 +32,7 @@ You can install the **Data Descript API** by cloning the repository or downloadi
 **Cloning the Repository:**
 
 ```bash
-git clone https://github.com/yourusername/data-descript-api.git
+git clone https://github.com/glexposito/data-descript-api
 cd data-descript-api
 ```
 
