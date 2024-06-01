@@ -23,6 +23,6 @@ jobs:
           service-name: data-descript-api
           service-env: "PORT=8000"
           service-ports: "8000:http"
-          service-routes: "/:8000"
+          service-routes: "/docs:8000"
           service-instance-type: free
           skip-cache: true
