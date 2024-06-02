@@ -3,6 +3,7 @@
 The **Data Descript API** allows users to calculate basic descriptive statistics such as mean, median, variance, standard deviation, minimum and maximum values, range, and quartiles. This is primarily a proof of concept to experiment with FastAPI.
 
 ## Table of Contents
+
 1. [Requirements](#requirements)
 2. [Installation](#installation)
 3. [Configuration](#configuration)
